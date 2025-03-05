@@ -6,6 +6,7 @@
   <head>
  <link rel="shortcut icon" href="../Assets/images/favicon (2).ico" type="x-icon">
   <link rel="stylesheet" href="../css/style2.css">
+  <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -13,38 +14,38 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </style>
   <title>Education Management</title>
 </head>
 <body>
-  <header class="header">
-    <div class="logo2">
-      <a href="./index.html"><img class="logo1" src="../Assets/images/logo1.jpg">
-      </a>
-    </div>
-  <nav class="nav">
-      <ul>
-        <li> <a href="./index.html">Home</a></li>
-         <li><a href="../html/contact.html">Find Us</a></li>
-        <li><a href="../html/LearnMore.html">Learn More</a></li>  
-        </ul>
-      
-        <div class="dropdown">
-          <li class="services">
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-            <div class="dropdown-menu p-8" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item-text pl-0" href="./education.html">Education Management</a>
-              <a class="dropdown-item-text pl-0" href="../html/index1.html">Hospital & Pathlab Solution</a>
-              <a class="dropdown-item-text pl-0" href="../html/index2.html">Design & Development</a>
-              <a class="dropdown-item-text pl-0" href="../html/index3.html">HRMS Solution</a>
-            </div>
-          </li>
+  <header>
+    <nav class="navbar-custom">
+        <div class="logo">
+            <img src="../Assets/images/logo1.jpg" alt="" >
         </div>
-        <div class="enquiry-wrapper">
-          <li><a class="enq" href="#" data-toggle="modal" data-target="#enquiryModal">Enquiry</a></li>
-            </div>
- </nav>
-  </header>
+        <div class="right-side-links">
+            <ul class="links">
+                <li  class="link"><a href="../index.html">HOME</a></li>
+                <li class="link"><a href="../html/LearnMore.html">ABOUT</a></li>
+                <li class="link"><a href="../html/contact.html">FIND US</a></li>
+                <div class="dropdown">
+                    <li class="link"><a href="">SERVICES</a> <i class="fa-solid fa-chevron-down"></i></li>
+                        <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="../html/education.html">Education Management</a></li>
+                            <li><a href="../html/index1.html">Hospital & Pathlab Solution</a></li>
+                            <li><a href="../html/index2.html">Design & Development</a></li>
+                            <li><a href="../html/index3.html">HRMS Solution</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <li class="link"><a href="">ENQUIRY</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
   <div class="modal fade" id="enquiryModal" tabindex="-1" role="dialog" aria-labelledby="enquiryModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div id="spinner" class="spinner"></div>

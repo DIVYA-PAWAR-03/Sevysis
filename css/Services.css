@@ -13,142 +13,14 @@ footer {
   overflow-x: hidden;
   box-sizing: border-box;
 }
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgb(1, 1, 1);
-  height: 85px;
-  padding: 2px 85px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1000;
-  text-decoration: none;
-}
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.logo1 {
-  position: relative;
-  width: 160px;
-  height: 110px;
-  right: 80px;
-  bottom: 10px;
-  opacity: 0; 
-  animation: fadeIn 1.9s ease-in forwards;
-}
-
-nav {
-  position: relative;
-  display: flex;
-  justify-content: end;
-  gap: 1rem;
-  width: auto; 
-  left: 7rem;
-  bottom: 95px;
-  background: linear-gradient(45deg,#000000,#333,#022041,#000000);
-  padding-right: 12rem;
-}
-
-.dropdown {
-  right: 15px;
-  bottom: 8px;
-  font-size: 20px;
-  height: 100%;
-  transition: 0.1s ease;
-}
-
-.dropdown-menu {
-  position: fixed;
-  width: 196.5%; 
-  height: 287%; 
-  border-radius: 10px;
-  text-decoration: none;
-}
-.dropdown-menu a:hover {
-  color: #ffbf10;
-  text-decoration: none;
-}
-.dropdown-menu a:hover::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 1px;
-  width: 100%;
-  background-color: transparent;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
-nav button {
-  position: fixed;
-  top: 20px;
-  left: 90%;
-  font-size: 20px;
-  height: 45px;
-}
-nav a {
-  position: relative;
-  font-size: 18px;
-  color: #fff;
-  font-weight: 500;
-  
-  margin-left: 40px;
-  top: 20px;
-  justify-content: space-between;
-  overflow: hidden; 
-}
-nav ul{
-  display: flex;
-  gap: 2rem;
-}
-nav a:hover {
-  text-decoration: none;
-  color:#ffbf10;
-}
-nav a:hover::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #ffbf10;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
-.enquiry-wrapper {
+/* .enquiry-wrapper {
   position: absolute;
   right: 115px; 
   top: 33%; 
   transform: translateY(-50%);
-}
-.nav {
-  position: relative; 
-}
+} */
+
 #chatbot-toggle-btn {
   position: fixed;
   height: 50px;
