@@ -564,5 +564,68 @@ body {
       display: flex;
       flex-direction: column;
     }
+
+    .navbar-custom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: relative;
+      z-index: 1000;
+    }
+    
+    .right-side-links {
+      display: flex;
+    }
+    
+    .links {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .link {
+      margin: 0 15px;
+    }
+    
+    .link a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    .dropdown {
+      position: relative;
+    }
+    
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      min-width: 200px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown-menu ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .dropdown-menu li {
+      padding: 10px;
+    }
+    
+    .dropdown-menu a {
+      text-decoration: none;
+      color: #333;
+    }
     
   }
