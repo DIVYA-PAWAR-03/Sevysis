@@ -14,7 +14,7 @@
     
 }
 .navbar-custom  .logo img{
-    height: 80px;
+  height: 100px;
 }
 .navbar-custom .right-side-links .links{
 display: flex;
@@ -57,7 +57,7 @@ margin-right: 2rem;
     top: 100%;
     transform: translateX(-60%);
     width: 300px;
-    background-color: rgb(206, 203, 203);
+    background-color: rgb(241, 236, 236);
     border-radius: 15px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.589);
     

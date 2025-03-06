@@ -19,7 +19,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: -88px;
+  /* margin-top: -88px; */
 }
 
 .carousal h4 {
@@ -45,23 +45,7 @@ nav ul{
   gap: 2rem;
 }
 
-nav a:hover {
-  text-decoration: none;
-  color: #ffbf10;
-}
 
-nav li:hover::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 2px;
-  width: 100%;    
-  background-color: #ffbf10;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
-}
 .slider__wrapper {
   overflow: hidden;
   background-position: center;
@@ -935,7 +919,7 @@ a.ib-mob, a.ib-mob:hover {
 }
 
 .carousal{
-  padding-top:172px;
+  padding-top:0;
 }
 #chatbot-toggle-btn {
   position: fixed;
