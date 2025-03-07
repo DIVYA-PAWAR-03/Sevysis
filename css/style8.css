@@ -313,7 +313,7 @@ body {
   .button-container button:hover {
     background-color: #0074cc;
   }
-  .logo1 {
+  /* .logo1 {
     position: relative;
     width: 160px;
   height: 110px;
@@ -403,7 +403,7 @@ body {
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-  }
+  } */
   .modal-body #phone {
     width: 467px;
   }
@@ -517,115 +517,4 @@ body {
   a.ib-mob, a.ib-mob:hover {
     color: unset;
     text-decoration: none;
-  }
-  @media screen and (max-width: 768px) {
-   body{
-    padding-top: 4rem;
-    display: contents;
-   }
-    header{
-      display: flex;
-    }
-    nav{
-  
-      display: flex;
-    }
-    nav a{
-      font-size: 13px;
-      font-weight: 600;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-    .modal-body #phone {
-      width: 467px;
-    }
-    .dropdown{
-       display: flex;
-      padding: 3px;
-   
-    }
-    .dropdown-menu{
-      display: flex;
-      position: fixed;
-     width: 14rem;
-    }
-  
-  }
-  @media(max-width:767px){
-    .about h1, .vision h1, .feed1 h1{
-      font-size:32px;
-    }
-    .about p{
-      font-size:16px;
-      line-height:normal;
-    }
-    .ib-address{
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .navbar-custom {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      background-color: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: relative;
-      z-index: 1000;
-    }
-    
-    .right-side-links {
-      display: flex;
-    }
-    
-    .links {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .link {
-      margin: 0 15px;
-    }
-    
-    .link a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-    
-    .dropdown {
-      position: relative;
-    }
-    
-    .dropdown-menu {
-      display: none;
-      position: absolute;
-      background-color: #fff;
-      min-width: 200px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-    
-    .dropdown:hover .dropdown-menu {
-      display: block;
-    }
-    
-    .dropdown-menu ul {
-      list-style: none;
-      padding: 0;
-    }
-    
-    .dropdown-menu li {
-      padding: 10px;
-    }
-    
-    .dropdown-menu a {
-      text-decoration: none;
-      color: #333;
-    }
-    
   }

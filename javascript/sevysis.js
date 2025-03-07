@@ -1,16 +1,33 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var dropdown = document.querySelector('.dropdown');
-    var dropdownMenu = document.querySelector('.dropdown-menu');
-  
-    dropdown.addEventListener('click', function(event) {
-      event.stopPropagation();
-      dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
-    });
-  
-    document.addEventListener('click', function() {
+  var dropdownToggle = document.querySelector('.dropdown .link');
+  var dropdownMenu = document.querySelector('.dropdown-menu');
+  var isOpen = false;
+
+  // Add click event to the specific toggle element (not the entire dropdown container)
+  dropdownToggle.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent navigation if it's a link
+    event.stopPropagation(); // Stop the event from bubbling up
+    
+    // Toggle dropdown visibility using a state variable
+    if (isOpen) {
       dropdownMenu.style.display = 'none';
-    });
+    } else {
+      dropdownMenu.style.display = 'block';
+    }
+    isOpen = !isOpen;
   });
+
+  // Close dropdown when clicking elsewhere
+  document.addEventListener('click', function() {
+    dropdownMenu.style.display = 'none';
+    isOpen = false;
+  });
+  
+  // Prevent clicks within the dropdown menu from closing it
+  dropdownMenu.addEventListener('click', function(event) {
+    event.stopPropagation();
+  });
+});
 const form = document.querySelector('form');
 const fullname = document.getElementById('name');
 const email = document.getElementById('email');
