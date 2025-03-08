@@ -507,7 +507,7 @@ a.ib-mob, a.ib-mob:hover {
   .modal-body #phone {
     width: 467px;
   }
-  .dropdown {
+  /* .dropdown {
     display: flex;
     padding: 3px;
   }
@@ -515,7 +515,7 @@ a.ib-mob, a.ib-mob:hover {
     display: flex;
     position: fixed;
     width: 14rem;
-  }
+  } */
   .ib-address {
     align-items: center;
     display: flex;
